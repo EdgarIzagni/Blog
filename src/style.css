@@ -221,6 +221,7 @@ template {
   padding: 0 5%;
   word-break: keep-all;
   text-align: justify;
+  word-spacing: -2px;
 }
 
 .title {
