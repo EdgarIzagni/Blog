@@ -1,2 +1,20 @@
 @use 'base';
 @use 'layout';
+
+.body {
+	background-color: #F1F1F1;
+}
+
+.card-secundary {
+	box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+
+.card-principal__content {
+	background-color: rgba(#fff, 0.3);
+}
+
+.desc__link{
+	text-decoration: none;
+	color: royalblue;
+}
+

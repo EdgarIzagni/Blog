@@ -13,7 +13,7 @@
 .card-principal {
     width: 100%;
     height: 300px;
-    background-image: url(../../assets/img/frontend-4342425.svg);
+    background-image: url(../assets/img/frontend-4342425.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,9 +27,9 @@
 
 .card-secundary{
     width: 100%;
-    height: 250px;
     margin-right: 10px;;
     margin-bottom: 30px;
+    padding: 10px;
     position: relative;
 }
 
@@ -41,13 +41,7 @@
 
 .card-secundary__title{margin-bottom:  5px;}
 
-.card-secundary__btn{
-    background: none;
-    border: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+
 
 .card-secundary__btn:hover{cursor: pointer;}
 

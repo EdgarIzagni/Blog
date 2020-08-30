@@ -253,9 +253,9 @@ template {
 
 .card-secundary {
   width: 100%;
-  height: 250px;
   margin-right: 10px;
   margin-bottom: 30px;
+  padding: 10px;
   position: relative;
 }
 
@@ -267,14 +267,6 @@ template {
 
 .card-secundary__title {
   margin-bottom: 5px;
-}
-
-.card-secundary__btn {
-  background: none;
-  border: none;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
 .card-secundary__btn:hover {
@@ -300,6 +292,22 @@ template {
   .card-secundary__img {
     height: 200px;
   }
+}
+.body {
+  background-color: #F1F1F1;
+}
+
+.card-secundary {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.card-principal__content {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.desc__link {
+  text-decoration: none;
+  color: royalblue;
 }
 
 /*# sourceMappingURL=style.css.map */
