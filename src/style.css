@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -224,10 +225,12 @@ template {
 
 .title {
   margin-bottom: 0;
+  font-size: 2.2rem;
 }
 
 .desc {
   margin-bottom: 25px;
+  font-size: 1.6rem;
 }
 
 .card-principal {
@@ -241,9 +244,20 @@ template {
   flex-direction: column-reverse;
   margin-bottom: 30px;
 }
+
+
+.content__title{
+  text-align: initial;
+  font-size: 1.3rem
+}
+
 @media screen and (min-width: 1224px) {
   .card-principal {
     height: 450px;
+    font-size: 1.5rem;
+  }
+  .content__title{
+    font-size: 1.5rem;
   }
 }
 
@@ -287,12 +301,14 @@ template {
 @media screen and (min-width: 1230px) {
   .card-secundary {
     height: 400px;
+    font-size: 1.2rem;
   }
 
   .card-secundary__img {
     height: 200px;
   }
 }
+
 .body {
   background-color: #F1F1F1;
 }
@@ -302,12 +318,13 @@ template {
 }
 
 .card-principal__content {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .desc__link {
   text-decoration: none;
   color: royalblue;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
