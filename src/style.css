@@ -245,22 +245,15 @@ template {
   margin-bottom: 30px;
 }
 
-
-.content__title{
-  text-align: initial;
-  font-size: 1.3rem
-}
-
 @media screen and (min-width: 1224px) {
   .card-principal {
     height: 450px;
     font-size: 1.5rem;
   }
-  .content__title{
-    font-size: 1.5rem;
-  }
 }
-
+.content__desc{
+    margin-top: 10px;
+  }
 .card-principal__content {
   padding: 0 10px;
 }
@@ -325,6 +318,10 @@ template {
   text-decoration: none;
   color: royalblue;
   font-weight: bold;
+}
+
+.copy{
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
